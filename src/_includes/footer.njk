@@ -1,0 +1,97 @@
+{% set currentUrl %}{{ page.url }}{% endset %}
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__item">
+                <h4 class="hedding-level-4">About Us</h4>
+                <p>Itaque earum rerum tenetur sapiente delectus ut aut reiciendis voluptatibus maiores alias consequatur
+                    repellat.</p>
+                <img class="footer__item__logo" src="images/Bridge-Logo.svg" alt="Bridge Logo">
+            </div>
+            <div class="footer__item">
+                <h4 class="hedding-level-4">Quick Links</h4>
+                <ul role="navigation" aria-label="quick navigation">
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link"
+                            role="navigation item">Custom Software Development
+                        </a></li>
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link"
+                            role="navigation item">Mobile App Development
+                        </a></li>
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link" role="navigation item">UI
+                            & UX Services
+                        </a></li>
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link"
+                            role="navigation item">Software Quality Assurance
+                        </a></li>
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link"
+                            role="navigation item">Cloud Services
+                        </a></li>
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link"
+                            role="navigation item">IoT Services
+                        </a></li>
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link"
+                            role="navigation item">Full Stack Development
+                        </a></li>
+                    <li class="footer__item__list-item"><a href="#" class="footer__item__link"
+                            role="navigation item">Digital Marketing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__item">
+                <h4 class="hedding-level-4">Recent Post</h4>
+                <ul class="resent-post">
+                    <li class="resent-post__item">
+                        <img class="resent-post__img" src="images/resent-post_1.png" alt="Custom Software ">
+                        <div class="resent-post__content">
+                            <a href="#" aria-label="Recent Post">
+                                <h5>Custom Software</h5>
+                                <p>Lorem ipsum dolor sit amet, adipiscing elit...</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="resent-post__item">
+                        <img class="resent-post__img" src="images/resent-post_2.png" alt="Custom Software ">
+                        <div class="resent-post__content">
+                            <a href="#" aria-label="Recent Post">
+                                <h5>Custom Software</h5>
+                                <p>Lorem ipsum dolor sit amet, adipiscing elit...</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h4 class="hedding-level-4">Subscribe Now</h4>
+                <form action="" class="form-subscribe" aria-label="subscribe">
+                    <input type="email" name="" id="" aria-label="Email id" placeholder="Enter Email Address">
+                    <button class="btn btn--cta btn--blue" type="submit">Subscribe Now</button>
+                </form>
+                <ul class="social-icon">
+                    <li class="social-icon__item"><a href="#" class="social-icon__link" aria-label="facebook page"> <svg
+                                class="social-icon__icon">
+                                <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                            </svg></a></li>
+                    <li class="social-icon__item"><a href="#" class="social-icon__link" aria-label="twitter page"><svg
+                                class="social-icon__icon">
+                                <use xlink:href="images/sprite.svg#icon-twitter"></use>
+                            </svg></a></li>
+                    <li class="social-icon__item"><a href="#" class="social-icon__link" aria-label="linkedin page"><svg
+                                class="social-icon__icon">
+                                <use xlink:href="images/sprite.svg#icon-linkedin"></use>
+                            </svg></a></li>
+                    <li class="social-icon__item"><a href="#" class="social-icon__link" aria-label="behance page"><svg
+                                class="social-icon__icon">
+                                <use xlink:href="images/sprite.svg#icon-behance"></use>
+                            </svg></a></li>
+                    <li class="social-icon__item"><a href="#" class="social-icon__link" aria-label="pinterest page"><svg
+                                class="social-icon__icon">
+                                <use xlink:href="images/sprite.svg#icon-pinterest"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{%include "mobile-menu.njk" %}

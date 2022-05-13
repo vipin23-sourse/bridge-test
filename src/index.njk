@@ -1,0 +1,154 @@
+---
+layout: template.njk
+title: Home
+pagetitle: Home
+permalink: "{{ page.filePathStem | replace('/root/', '/') }}.html"
+---
+{% include "header.njk" %}
+<main role="content" aria-label="main content" id="main-content"></main>
+<section class="what-we-do" aria-label="what-we-do">
+  <div class="container">
+    <div class="what-we-do__wrap">
+      <div class="what-we-do__start">
+        <span class="sub-title">What We Do</span>
+        <h2 class="headding-level-2">Solutions</h2>
+        <p>We are a fully in-house digital agency focusing on branding, marketing, web design and development with
+          clients ranging from start-ups.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis, ut tincidunt ipsum.
+          Ut dictum bibendum ex, sed sagittis purus.</p>
+        <button class="btn btn--cta btn--blue btn-desktop">Get Started</button>
+      </div>
+      <div class="what-we-do__end solution">
+        <ul class="solution__list">
+          <li class="solution__item">
+            <svg class="solution__item__icon icon-web-design">
+              <use xlink:href="images/sprite.svg#icon-web-design"></use>
+            </svg>
+            <h3 class="hedding-level-3">
+              Web Design
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis.</p>
+            <a href="#" class="a-link" aria-label="Web Design">Learn More <svg class="icon-arrow">
+                <use xlink:href="images/sprite.svg#icon-arrow"></use>
+              </svg></a>
+          </li>
+          <li class="solution__item">
+            <svg class="solution__item__icon icon-web-design">
+              <use xlink:href="images/sprite.svg#icon-digital-marketing"></use>
+            </svg>
+            <h3 class="hedding-level-3">
+              Digital Marketing
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis.</p>
+            <a href="#" class="a-link" aria-label="Digital Marketing">Learn More <svg class="icon-arrow">
+                <use xlink:href="images/sprite.svg#icon-arrow"></use>
+              </svg></a>
+          </li>
+          <li class="solution__item">
+            <svg class="solution__item__icon icon-web-design">
+              <use xlink:href="images/sprite.svg#icon-app-design"></use>
+            </svg>
+            <h3 class="hedding-level-3">
+              App Design
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis.</p>
+            <a href="#" class="a-link" aria-label="App Design">Learn More <svg class="icon-arrow">
+                <use xlink:href="images/sprite.svg#icon-arrow"></use>
+              </svg></a>
+          </li>
+          <li class="solution__item">
+            <svg class="solution__item__icon icon-web-design">
+              <use xlink:href="images/sprite.svg#icon-development"></use>
+            </svg>
+            <h3 class="hedding-level-3">
+              Development
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis.</p>
+            <a href="#" class="a-link" aria-label="Development">Learn More <svg class="icon-arrow">
+                <use xlink:href="images/sprite.svg#icon-arrow"></use>
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn btn--cta btn--blue btn-mobile">Get Started</button>
+    </div>
+  </div>
+</section>
+
+<section class="latest-work" aria-label="latest-work">
+  <div class="container">
+    <div class="latest-work__wrap">
+      <div class="latest-work__head">
+        <h2 class="headding-level-2">
+          <span>Let’s See</span>
+          Our Latest Works.
+        </h2>
+        <button class="btn btn--cta btn--blue">View More</button>
+      </div>
+      <ul class="latest-work__list">
+        <li class="latest-work__item">
+          <a href="#" class="latest-work__work-link" aria-label="Education"></a>
+          <div class="latest-work__item-content">
+            <div class="latest-work__item-content__start">
+              <span class="title">Education</span>
+              <span class="sub-title">Education</span>
+            </div>
+            <div class="latest-work__item-content__end">
+              <a href="#" class="a-link" aria-label="Education">Learn More <svg class="icon-arrow">
+                  <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                </svg></a>
+            </div>
+          </div>
+          <img src="images/taking-path-mountains.png" alt="taking-path-mountains" loading="lazy">
+        </li>
+        <li class="latest-work__item">
+          <a href="#" class="latest-work__work-link" aria-label="Education"></a>
+          <div class="latest-work__item-content">
+            <div class="latest-work__item-content__start">
+              <span class="title">Education</span>
+              <span class="sub-title">Education</span>
+            </div>
+            <div class="latest-work__item-content__end">
+              <a href="#" class="a-link" aria-label="Education">Learn More <svg class="icon-arrow">
+                  <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                </svg></a>
+            </div>
+          </div>
+          <img src="images/online-communication.png" alt="online-communication" loading="lazy">
+        </li>
+        <li class="latest-work__item">
+          <a href="#" class="latest-work__work-link" aria-label="Education"></a>
+          <div class="latest-work__item-content">
+            <div class="latest-work__item-content__start">
+              <span class="title">Education</span>
+              <span class="sub-title">Education</span>
+            </div>
+            <div class="latest-work__item-content__end">
+              <a href="#" class="a-link" aria-label="Education">Learn More <svg class="icon-arrow">
+                  <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                </svg></a>
+            </div>
+          </div>
+          <img src="images/doctor.png" alt="happy-doctor-holding-clipboard-with-patients" loading="lazy">
+        </li>
+        <li class="latest-work__item">
+          <a href="#" class="latest-work__work-link" aria-label="Education"></a>
+          <div class="latest-work__item-content">
+            <div class="latest-work__item-content__start">
+              <span class="title">Education</span>
+              <span class="sub-title">Education</span>
+            </div>
+            <div class="latest-work__item-content__end">
+              <a href="#" class="a-link" aria-label="Education">Learn More <svg class="icon-arrow">
+                  <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                </svg></a>
+            </div>
+          </div>
+          <img src="images/online-communication.png" alt="online-communication" loading="lazy">
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<div class="demmy"></div>
+{%include "footer.njk" %}
