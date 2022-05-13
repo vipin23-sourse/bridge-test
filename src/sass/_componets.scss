@@ -59,6 +59,9 @@
 .a-link{
     text-decoration: none;
     color: var(--color-secondary);
+    @include respond(laptop) { 
+        font-size: 16px;
+    }
   &:hover{
       color: var(--color-primary);
   }
@@ -434,6 +437,9 @@
         p + p{
             @extend%font-w-300;
             font-size: 1.6rem;
+            @include respond(laptop) { 
+                font-size: 14px;
+            }
         }
     }
 
@@ -736,7 +742,7 @@
 
     &__item{
         color: var(--color-gray-2);
-        font-size: 1.4rem;
+        font-size: 14px;
         h4{
             margin-bottom: 2.5rem;
             color: var(--color-secondary);

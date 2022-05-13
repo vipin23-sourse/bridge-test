@@ -24,15 +24,17 @@
  
  
    
-      <a href="#main-content" class="skip-navigation" role="skip" aria-label="navigation">
-        Skip Navigation
-      </a>
+     
   
         <div class="header__head">
           <div class="container">
+           
             <div class="header__wrap">
-              <a href="index.html" class="header__logo-link" aria-label="Bridge">
+              <a href="index.html" aria-label="Bridge" tabindex="0">
                 <img src="images/Bridge-Logo.svg" alt="Bridge Logo">
+              </a>
+              <a href="#main-content" class="skip-navigation" role="skip" aria-label="navigation" tabindex="0">
+                Skip Navigation
               </a>
               <nav class="navigation" aria-label="navigation">
                 <ul class="navigation__list">
@@ -122,7 +124,7 @@
       </div>
     </div>
 </header>
-<main role="content" aria-label="main content" id="main-content"></main>
+<main role="content" aria-label="main content" id="main-content">
 <section class="what-we-do" aria-label="what-we-do">
   <div class="container">
     <div class="what-we-do__wrap">
@@ -268,6 +270,7 @@
   </div>
 </section>
 <div class="demmy"></div>
+</main>
 
 
 <footer class="footer">
@@ -393,11 +396,11 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/main.js" async></script>
+    <script src="js/main.min.js" async></script>
     <script>
         $('.one-item').slick({
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 300,
             slidesToShow: 1,
             autoplay: true,

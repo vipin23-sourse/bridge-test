@@ -5,7 +5,7 @@ pagetitle: Home
 permalink: "{{ page.filePathStem | replace('/root/', '/') }}.html"
 ---
 {% include "header.njk" %}
-<main role="content" aria-label="main content" id="main-content"></main>
+<main role="content" aria-label="main content" id="main-content">
 <section class="what-we-do" aria-label="what-we-do">
   <div class="container">
     <div class="what-we-do__wrap">
@@ -151,4 +151,5 @@ permalink: "{{ page.filePathStem | replace('/root/', '/') }}.html"
   </div>
 </section>
 <div class="demmy"></div>
+</main>
 {%include "footer.njk" %}

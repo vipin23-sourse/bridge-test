@@ -21,8 +21,8 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 300) {
-	    $(".header__wrap").css("padding" , "1.5rem 0");
+	  if (scroll > 1000) {
+	    $(".header__wrap").css("padding" , "1rem 0");
       $(".header__head").addClass("fixed-nav");
 	  }
 

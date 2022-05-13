@@ -134,6 +134,7 @@ img {
 
 .slick-dots {
     transform: translateY(-12rem);
+    
 
     @include respond(laptop) {
         transform: translateY(-14rem);
@@ -161,12 +162,10 @@ img {
     color: #fff;
     transform: translateY(-120px);
     margin-left: 10rem;
-   
-    
+    z-index: 999;
     transition: all 300ms ease-in-out;
-
     &:focus {
-        transform: translate(0);
+        transform: translateY(0);
     }
 }
 
